@@ -1,0 +1,20 @@
+Start Point: User comes to our webpage
+Node: user clicks on a book to open it
+Node: user sees page 1
+Node: user can hover over images to see more information
+Node: user can click next page button
+Node: user sees page 2
+Node: user can hover over items to see more information
+Node: user can click next page button
+Node: user sees a page blocking modal
+Node: user closes modal
+Node: user must click on an image within the picture of page 2 to go to the next page
+Node: user clicks on the image
+Node: user clicks next page
+Node: user is taken to page 3
+“
+“
+Node: user reaches the end of the book
+Node: user leaves the webpage
+Node: when user comes back their place in the current book is saved
+Node: user can click button to go back to the initial webpage and select a new book
