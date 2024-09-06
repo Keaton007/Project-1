@@ -21,3 +21,11 @@ body {
     transform: scale(1.2);
     background-color: rgb(255, 246, 226);
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+    
+}
