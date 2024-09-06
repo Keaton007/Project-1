@@ -1,5 +1,5 @@
 :root {
-
+ flex-wrap: wrap; 
 }
 
 * {
@@ -16,10 +16,32 @@ body {
     height: 100%;
 }
 
+p {
+    width: 50%;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+}
+
+.interactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .img:hover {
     transition: .5s;
     transform: scale(1.2);
     background-color: rgb(255, 246, 226);
+}
+
+.imgText {
+    display: none;
+    text-align: center;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 768px) {
