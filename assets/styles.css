@@ -1,28 +1,30 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 :root {
  flex-wrap: wrap; 
 }
 
-* {
-  
+html, body {
+    height: 100%;
+    margin: 0;
 }
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 body {
-    background-image: url("../images/table.jpg");
+    background-image: url("../images/table.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
 }
 
-p {
+.titleText {
     width: 50%;
+    margin-bottom: 150px;
 }
 
 .box {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
+    justify-content: space-between;
 }
 
 .interactions {
@@ -30,12 +32,6 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.img:hover {
-    transition: .5s;
-    transform: scale(1.2);
-    background-color: rgb(255, 246, 226);
 }
 
 .imgText {
