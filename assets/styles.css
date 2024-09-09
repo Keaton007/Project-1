@@ -16,22 +16,33 @@ body {
     background-repeat: no-repeat;
 }
 
-.titleText {
-    width: 50%;
-    margin-bottom: 150px;
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.title-text {
+    margin:25px 150px 150px 150px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .box {
     width: 150px;
     height: 150px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .interactions {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0 20% 0 20%;
 }
 
 .imgText {
@@ -40,10 +51,18 @@ body {
     margin-top: 5px;
 }
 
+.box:hover .imgText {
+    display: block;
+}
+
 @media screen and (max-width: 768px) {
     body {
         width: auto;
         height: auto;
+    }
+
+    .title-text {
+        margin: 25px 50px 50px 50px;
     }
     
 }
