@@ -26,8 +26,8 @@ header, .book-container {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 800px;
+    width: 800px;
+    height: 600px;
     position: absolute;
     z-index: -1;
 }
@@ -49,10 +49,28 @@ header, .book-container {
     border: 5px solid black;
 }
 
-.box {
-    width: 150px;
-    height: 150px;
-    /* justify-content: space-between; */
+#box1 {
+    width: 200px;
+    height: 200px;
+    left: 6%;
+    top: 50%;
+    position: absolute;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    left: 28%;
+    top: 50%;
+    position: absolute;
+}
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
 }
 
 .interactions {
