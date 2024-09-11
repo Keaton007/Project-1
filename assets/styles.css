@@ -40,7 +40,10 @@ html, body {
 
 .box {
     width: 150px;
-    height: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     /* justify-content: space-between; */
 }
 
@@ -50,6 +53,7 @@ html, body {
     align-items: center;
     flex-wrap: wrap;
     padding: 150px 20% 0 20%;
+    /* height: 300px; */
 }
 
 .imgText {
@@ -61,7 +65,7 @@ html, body {
 }
 
 .box:hover .imgText {
-    display: block;
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
