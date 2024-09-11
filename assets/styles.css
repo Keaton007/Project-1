@@ -10,15 +10,27 @@ html, body {
     background-color:rgb(213, 113, 0);
 }
 
+header, .book-container {
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+    border: 5px solid darkslategray;
+}
+
+.book-container h3 {
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
 .backgroundimg {
     background-image: url("../images/table.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
 }
 
 .title {
@@ -38,13 +50,28 @@ html, body {
     background-color: white;
 }
 
-.box {
-    width: 150px;
-    height: 300px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    /* justify-content: space-between; */
+#box1 {
+    width: 200px;
+    height: 200px;
+    left: 6%;
+    top: 50%;
+    position: absolute;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    left: 28%;
+    top: 50%;
+    position: absolute;
+}
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
 }
 
 .interactions {
@@ -66,6 +93,29 @@ html, body {
 
 .box:hover .imgText {
     display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#goldilocks {
+    background-image: url("../images/cabinInWoods.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 120px;
+    box-shadow: 5px 5px 5px black;
+}
+#goldilocks h2, #goldilocks p {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 0px;
 }
 
 @media screen and (max-width: 768px) {
