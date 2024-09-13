@@ -119,6 +119,16 @@ a:hover {
     margin: 0px;
 }
 
+#left-arrow {
+    position: absolute;
+    left: 0px;
+}
+
+#right-arrow {
+    position: absolute;
+    right: 0px;
+}
+
 @media screen and (max-width: 2500px) {
     .box {
         width: 250px;
