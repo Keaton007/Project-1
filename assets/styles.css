@@ -8,6 +8,7 @@ html, body {
     height: 100%;
     margin: 0;
     background-color:rgb(213, 113, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 header, .book-container {
@@ -17,10 +18,19 @@ header, .book-container {
     border: 5px solid darkslategray;
 }
 
+.main-page-header {
+    background-color:rgb(226, 162, 0);
+}
+
 .book-container h3 {
     text-decoration: underline;
     margin-bottom: 40px;
 }
+
+.book-container {
+    background-color: rgb(226, 162, 0);
+}
+
 .backgroundimg {
     background-image: url("../images/table.png");
     background-size: cover;
