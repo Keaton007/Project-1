@@ -53,35 +53,13 @@ header, .book-container {
 }
 
 .title-text {
-    padding:25px 150px;
+    font-size: large;
+    padding: 25px;
     font-weight: bold;
     text-align: center;
     border: 5px solid black;
     background-color: white;
-}
-
-#box1 {
-    width: 200px;
-    height: 200px;
-    left: 6%;
-    top: 50%;
-    position: absolute;
-}
-
-#box2 {
-    width: 200px;
-    height: 200px;
-    left: 28%;
-    top: 50%;
-    position: absolute;
-}
-
-#box3 {
-    width: 200px;
-    height: 200px;
-    left: 50%;
-    top: 50%;
-    position: absolute;
+    margin-bottom: 200px;
 }
 
 .interactions {
@@ -89,17 +67,28 @@ header, .book-container {
     justify-content: right;
     align-items: center;
     flex-wrap: wrap;
-    padding: 150px 20% 0 20%;
-    /* height: 300px; */
+    gap: 400px;
+    margin-right: 350px
 }
 
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
 
 .imgText {
     display: none;
     text-align: center;
-    margin-top: 5px;
     border: 5px solid black;
     background-color: white;
+    font-size: x-large;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px;
     vertical-align: bottom;
 }
 
@@ -130,10 +119,10 @@ a:hover {
     margin: 0px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2500px) {
     .box {
-        width: 150px;
-        height: 200px;
+        width: 250px;
+        height: 350px;
         margin: 20px;
     }
     
@@ -142,15 +131,89 @@ a:hover {
         justify-content: right;
         align-items: center;
         flex-wrap: wrap;
-        gap: 300px;
+        gap: 350px;
+        margin-right: 350px
+    }
+}
+
+@media screen and (max-width: 2250px) {
+    .box {
+        width: 250px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    .interactions {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 325px;
+        margin-right: 325px
+    }
+}
+
+@media screen and (max-width: 2100px) {
+    .box {
+        width: 250px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    .interactions {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 280px;
+        margin-right: 280px
+    }
+    .title-text {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .box {
+        width: 250px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    .interactions {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 200px;
         margin-right: 250px
+    }
+    .title-text {
+        margin-bottom: 130px;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .box {
+        width: 250px;
+        height: 300px;
+        margin: 20px;
+    }
+    
+    .interactions {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 200px;
+        margin-right: 200px
     }
 }
 
 @media screen and (max-width: 1650px) {
     .box {
-        width: 150px;
-        height: 200px;
+        width: 250px;
+        height: 300px;
         margin: 20px;
     }
     
@@ -159,15 +222,15 @@ a:hover {
         justify-content: right;
         align-items: center;
         flex-wrap: wrap;
-        gap: 250px;
-        margin-right: 250px
+        gap: 150px;
+        margin-right: 175px
     }
 }
 
 @media screen and (max-width: 1550px) {
     .box {
-        width: 150px;
-        height: 200px;
+        width: 250px;
+        height: 300px;
         margin: 20px;
     }
     
@@ -176,15 +239,15 @@ a:hover {
         justify-content: right;
         align-items: center;
         flex-wrap: wrap;
-        gap: 225px;
-        margin-right: 205px
+        gap: 150px;
+        margin-right: 150px
     }
 }
 
 @media screen and (max-width: 1350px) {
     .box {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 250px;
         margin: 20px;
     }
     
@@ -193,15 +256,15 @@ a:hover {
         justify-content: right;
         align-items: center;
         flex-wrap: wrap;
-        gap: 165px;
-        margin-right: 170px
+        gap: 120px;
+        margin-right: 150px
     }
 }
 
 @media screen and (max-width: 1200px) {
     .box {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 250px;
         margin: 20px;
     }
     
@@ -210,11 +273,11 @@ a:hover {
         justify-content: right;
         align-items: center;
         flex-wrap: wrap;
-        gap: 130px;
-        margin-right: 150px
+        gap: 125px;
+        margin-right: 75px
     }
     .title-text {
-        margin-bottom: 15px;
+        margin-bottom: 150px;
     }
     
 }
@@ -222,7 +285,7 @@ a:hover {
 @media screen and (max-width: 1100px) {
     .box {
         width: 150px;
-        height: 150px;
+        height: 200px;
         margin: 20px;
     }
     
@@ -235,7 +298,28 @@ a:hover {
         margin-right: 120px
     }
     .title-text {
-        margin-bottom: 15px;
+        margin-bottom: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+    
+    .interactions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        margin-right: 0px;
+    }
+    .title-text {
+        margin-bottom: 150px;
     }
     
 }
